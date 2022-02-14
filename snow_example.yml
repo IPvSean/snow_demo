@@ -4,7 +4,7 @@
     - name: Create incident
       servicenow.itsm.incident:
         state: new
-        caller: Sean.Cavanaugh
+        caller: abel.tuter
         short_description: this was created by Ansible
         description: "Did you know that {{ ansible_date_time.date }}"
         impact: low
